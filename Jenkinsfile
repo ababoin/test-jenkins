@@ -6,8 +6,9 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh 'whoami'
+                sh 'uname'
                 sh 'uname -a'
-                sh 'ip addr'
+                sh 'ifconfig'
                 sh 'pwd'
                 sh 'ls -lah'
                 sh 'ls -lah /'
