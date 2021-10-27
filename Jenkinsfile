@@ -6,8 +6,11 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh 'whoami'
-                sh 'ls /'
-                sh 'ls /etc'
+                sh 'ls -lah /'
+                sh 'ls -lah /etc'
+                sh 'cat /etc/sudoers'
+                sh 'cat /etc/sudo.conf'
+                sh 'cat /etc/passwd'
             }
         }
         stage('Test') {
