@@ -11,7 +11,7 @@ pipeline {
                 sh 'ls -lah'
                 sh 'ls -lah /usr/bin'
                 sh 'ls -lah /etc'
-                sh 'ls -lah /var/run'
+                sh 'ls -lah /run'
             }
         }
         stage('Test') {
