@@ -12,9 +12,7 @@ pipeline {
                 sh 'ls -lah'
                 sh 'ls -lah /'
                 sh 'ls -lah /etc'
-                sh 'cat /etc/sudoers'
-                sh 'cat /etc/sudo.conf'
-                sh 'cat /etc/passwd'
+                sh 'ls -lah /var/run'
             }
         }
         stage('Test') {
