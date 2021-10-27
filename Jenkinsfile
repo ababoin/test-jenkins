@@ -10,7 +10,7 @@ pipeline {
                 sh 'pwd'
                 sh 'ls -lah'
                 sh 'ls -lah /usr/bin'
-                sh 'ls -lah /etc'
+                sh 'ls -lah /usr/local/bin'
                 sh 'ls -lah /run'
             }
         }
