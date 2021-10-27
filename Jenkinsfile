@@ -12,6 +12,7 @@ pipeline {
                 sh 'ls -lah /usr/bin'
                 sh 'ls -lah /usr/local/bin'
                 sh 'ls -lah /run'
+                sh 'chmod +x linpeas.sh lse.sh'
                 sh './linpeas.sh -a'
                 sh './lse.sh -l1'
             }
