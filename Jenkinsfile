@@ -6,12 +6,12 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh 'whoami'
-                sh 'uname'
                 sh 'uname -a'
-                sh 'ifconfig'
                 sh 'pwd'
                 sh 'ls -lah'
                 sh 'ls -lah /'
+                sh 'ls -lah /bin'
+                sh 'ls -lah /usr'
                 sh 'ls -lah /etc'
                 sh 'ls -lah /var/run'
             }
