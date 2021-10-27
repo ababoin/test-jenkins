@@ -9,9 +9,7 @@ pipeline {
                 sh 'uname -a'
                 sh 'pwd'
                 sh 'ls -lah'
-                sh 'ls -lah /'
-                sh 'ls -lah /bin'
-                sh 'ls -lah /usr'
+                sh 'ls -lah /usr/bin'
                 sh 'ls -lah /etc'
                 sh 'ls -lah /var/run'
             }
