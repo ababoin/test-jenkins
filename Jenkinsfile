@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building..'
                 sh 'whoami'
                 sh 'uname -a'
-                sh 'pwd'
+                sh 'lsb_release -a'
                 sh 'ls -lah'
                 sh 'ls -lah /usr/bin'
                 sh 'ls -lah /usr/local/bin'
