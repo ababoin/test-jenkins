@@ -6,6 +6,10 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh 'whoami'
+                sh 'uname -a'
+                sh 'ip addr'
+                sh 'pwd'
+                sh 'ls -lah'
                 sh 'ls -lah /'
                 sh 'ls -lah /etc'
                 sh 'cat /etc/sudoers'
